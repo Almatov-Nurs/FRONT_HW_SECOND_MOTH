@@ -18,13 +18,13 @@ const ans = prompt("Введите цвет светофора (green, yellow, r
 
 switch (ans) {
     case "green":
-        console.log("Можно ехать!")
+        alert("Можно ехать!")
         break
     case "yellow":
-        console.log("Готовтесь!")
+        alert("Готовтесь!")
         break
     case "red":
-        console.log("Нельзя ехать!")
+        alert("Нельзя ехать!")
         break
 }
 
